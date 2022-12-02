@@ -3,6 +3,7 @@ services:
   name: pgbouncer
   env: docker
   plan: standard
+  region: frankfurt
   repo: https://github.com/renderinc/docker-pgbouncer
   envVars:
   - key: DATABASE_URL
